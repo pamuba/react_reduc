@@ -1,9 +1,15 @@
 {
   "expo": {
     "name": "reduxdemo",
+    "description":"for expo publis",
     "slug": "reduxdemo",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms":[
+      "ios",
+      "android",
+      "web"
+    ],
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -17,10 +23,28 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier":"op.pp.pp",
+      "buildNumber":"1.0.0",
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android":{
+      "versionCode":1,
+      "package":"pp.pp.pp",
+      "icon":"",
+      "splash":{"image":"./assets/splash.png"},
+      "permissions":[
+        "CAMERA",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config":{
+        "googleMaps":{
+          "apiKey":""
+        }
+      }
+      
     }
   }
 }
